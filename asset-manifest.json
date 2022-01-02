@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/crypto-search/static/css/main.289a9d02.chunk.css",
+    "main.js": "/crypto-search/static/js/main.d1f7ef24.chunk.js",
+    "main.js.map": "/crypto-search/static/js/main.d1f7ef24.chunk.js.map",
+    "runtime-main.js": "/crypto-search/static/js/runtime-main.8c38418f.js",
+    "runtime-main.js.map": "/crypto-search/static/js/runtime-main.8c38418f.js.map",
+    "static/js/2.0ba67542.chunk.js": "/crypto-search/static/js/2.0ba67542.chunk.js",
+    "static/js/2.0ba67542.chunk.js.map": "/crypto-search/static/js/2.0ba67542.chunk.js.map",
+    "index.html": "/crypto-search/index.html",
+    "static/css/main.289a9d02.chunk.css.map": "/crypto-search/static/css/main.289a9d02.chunk.css.map",
+    "static/js/2.0ba67542.chunk.js.LICENSE.txt": "/crypto-search/static/js/2.0ba67542.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/crypto-search/static/media/wave.b2114ffc.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8c38418f.js",
+    "static/js/2.0ba67542.chunk.js",
+    "static/css/main.289a9d02.chunk.css",
+    "static/js/main.d1f7ef24.chunk.js"
+  ]
+}
