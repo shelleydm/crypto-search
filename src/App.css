@@ -1,38 +1,89 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+    color: #fff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+    background-image: url("./wave.png");
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    background-color: #1a1a1c;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.coin-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 64px;
+    color: #fff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.coin-app-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
 }
 
-.App-link {
-  color: #61dafb;
+.coin-search {
+    margin: 40px 0 64px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.coin-text {
+    margin: 32px 0;
+    text-align: center;
+}
+
+.coin-input {
+    padding-left: 16px;
+    width: 300px;
+    height: 50px;
+    border-radius: 4px;
+    border: none;
+    background-image: linear-gradient(-225deg, #b91884 0%, #ee2852 48%, #f17791 100%);
+    color: #e2e2e2;
+}
+
+.coin-input::placeholder {
+    color: #e2e2e2;
+}
+
+.blinker {
+    animation-name: blinker;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(1, 0, 0, 1);
+    animation-duration: 1s;
+    display: inline-block;
+    width: 4px;
+    height: 50px;
+    margin-left: 10px;
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgba(white, 0.3);
+    background: #ee2852;
+}
+
+@keyframes blinker {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@media (max-width: 1100px) {
+    html {
+        background-image: none;
+    }
 }
